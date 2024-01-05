@@ -1,10 +1,13 @@
 import React from "react";
+import Navbar from "./components/navbar/Navbar";
+import Hero from "./components/hero/Hero";
 
 const App = () => {
   return (
-    <div className="text-center text-6xl text-red-500">
-      Tailwind Css Installed Successfully
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+    </>
   );
 };
 
