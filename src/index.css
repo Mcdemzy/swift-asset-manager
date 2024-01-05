@@ -21,6 +21,8 @@
   --color-error: #ff4423;
   --color-success: #9cd323;
   --color-gray: #596780;
+  --color-gray-shade: #90a3bf;
+  --color-gray-variant: #1a202c;
   --box-shadow: #00000040;
 }
 
@@ -44,4 +46,36 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+h3 {
+  color: var(--color-gray-shade);
+}
+
+.hero_demo {
+  background: var(--color-purple);
+  border-radius: 30px;
+}
+.hero_demo:hover {
+  background: var(--color-gray);
+}
+
+.hero_plans {
+  background: var(--color-gray-variant);
+  border-radius: 36px;
+}
+.hero_plans:hover {
+  background: var(--color-bg-variant);
+  color: var(--color-purple);
+}
+
+.rough {
+  margin: auto;
+  width: 95%;
+  margin-top: 20px;
+}
+
+.rough img {
+  width: 80%;
+  height: 10%;
 }
