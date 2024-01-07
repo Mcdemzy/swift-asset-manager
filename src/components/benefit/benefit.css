@@ -1,0 +1,40 @@
+.benefits_section {
+  margin: auto;
+  /* margin-top: 10px; */
+  background: var(--color-white);
+  color: var(--text-color);
+  padding: 50px 0px 0px 150px;
+}
+.why_use {
+  color: var(--color-purple);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+  letter-spacing: -0.4px;
+}
+
+.benefit_box {
+  display: flex;
+}
+
+.benefits_section h2 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 60px */
+  letter-spacing: -1.2px;
+}
+
+.benefit_note {
+  color: var(--color-gray);
+  max-width: 496px;
+  margin-left: 100px;
+}
+
+.benefit_container {
+  height: 500px;
+  margin: auto;
+  background: red;
+  padding: 0px;
+}
