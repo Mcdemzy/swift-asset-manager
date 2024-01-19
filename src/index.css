@@ -48,10 +48,6 @@ body {
   align-items: center;
 }
 
-h3 {
-  color: var(--color-gray-shade);
-}
-
 .hero_demo {
   background: var(--color-purple);
   border-radius: 30px;

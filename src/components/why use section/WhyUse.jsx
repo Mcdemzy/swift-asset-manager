@@ -7,7 +7,7 @@ const WhyUse = () => {
   return (
     <>
       {/* FIRST WHY USE SAM SECTION  */}
-      <section className="w-full h-[150vh] bg-white pt-[48px] px-[112px] mb-[200px]">
+      <section className="w-full h-[150vh] bg-white pt-[48px] px-[112px]">
         <h2 className="text-[#7C5CFC] font-[37.5rem] text-[1.25rem]">
           Why Use Swift Asset Manager
         </h2>
@@ -55,7 +55,7 @@ const WhyUse = () => {
             <h3 className="text-[24px] font-[600px] leading-[36px] tracking-[-0.72px] text-[#040815] px-2">
               Use of multi-card payments
             </h3>
-            <p className="text-[16px] font-[400px] leading-[24px] tracking-[-0.32px] text-[#596780] p-2">
+            <p className="text-[1rem] font-[25rem] leading-[1.5rem] tracking-[-0.2rem] text-[#596780] p-2">
               Have more than 1 bank account or credit/debit card? Our platform
               is already integrated with many banks around the world, for easier
               payments!
@@ -65,6 +65,23 @@ const WhyUse = () => {
       </section>
 
       {/* SECOND WHY USE SAM SECTION */}
+      <section className="bg-white">
+        <div className="text-center">
+          <h2 className="text-[#7C5CFC] text-[1.25rem] font-[37.5rem] leading-[1.875rem] tracking-[-0.025rem]">
+            Why Use SAM
+          </h2>
+
+          <h3 className="text-[40px] font-[700px] leading-[3.75rem] tracking-[-0.075rem] text-[#040815] mb-[.625rem]">
+            Easy, Simple, Affordable
+          </h3>
+
+          <p className="max-w-[37.5rem] text-center text-[#596780] flex items-center justify-center m-auto mb-[12.5rem]">
+            Our platform helps your business in managing expenses. These are
+            some of the reasons why you should use our platform in managing
+            business finances.
+          </p>
+        </div>
+      </section>
     </>
   );
 };
