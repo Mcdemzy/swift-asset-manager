@@ -6,7 +6,8 @@ import WhyUseImage3 from "../../assets/whyUseImage3.png";
 const WhyUse = () => {
   return (
     <>
-      <section className="w-full h-[300vh] bg-white pt-[48px] px-[112px]">
+      {/* FIRST WHY USE SAM SECTION  */}
+      <section className="w-full h-[150vh] bg-white pt-[48px] px-[112px] mb-[200px]">
         <h2 className="text-[#7C5CFC] font-[37.5rem] text-[1.25rem]">
           Why Use Swift Asset Manager
         </h2>
@@ -22,18 +23,6 @@ const WhyUse = () => {
         </div>
 
         <div className="w-full h-[450px] mt-[50px] flex justify-center gap-[20px] ">
-          <div className="w-[360px]">
-            <div className="h-[310px] pt-[50px] pb-2 pr-[50px] bg-[#F3F5F7] rounded-[12px] mb-[16px]">
-              <img src={WhyUseImage1} alt="" className="min-w-[400px]" />
-            </div>
-            <h3 className="text-[24px] font-[600px] leading-[36px] tracking-[-0.72px] text-[#040815] px-2">
-              Automatic Invoice Payment
-            </h3>
-            <p className="text-[16px] font-[400px] leading-[24px] tracking-[-0.32px] text-[#596780] p-2">
-              No need to pay manually, we provide automatic invoice payment
-              service! Set a payment schedule and you're done, it's that easy!
-            </p>
-          </div>
           <div className="w-[360px] rounded-[12px]">
             <div className="h-[310px] pt-[50px] pb-2 pr-[50px] bg-[#F3F5F7] rounded-[12px] mb-[16px]">
               <img src={WhyUseImage2} alt="" className="" />
@@ -59,8 +48,23 @@ const WhyUse = () => {
               payments!
             </p>
           </div>
+          <div className="w-[360px]  rounded-[12px]">
+            <div className="h-[310px] pt-[50px] pb-2 pr-[50px] bg-[#F3F5F7] rounded-[12px] mb-[16px]">
+              <img src={WhyUseImage3} alt="" className="" />
+            </div>
+            <h3 className="text-[24px] font-[600px] leading-[36px] tracking-[-0.72px] text-[#040815] px-2">
+              Use of multi-card payments
+            </h3>
+            <p className="text-[16px] font-[400px] leading-[24px] tracking-[-0.32px] text-[#596780] p-2">
+              Have more than 1 bank account or credit/debit card? Our platform
+              is already integrated with many banks around the world, for easier
+              payments!
+            </p>
+          </div>
         </div>
       </section>
+
+      {/* SECOND WHY USE SAM SECTION */}
     </>
   );
 };
