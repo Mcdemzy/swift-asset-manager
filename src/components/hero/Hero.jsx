@@ -3,7 +3,7 @@ import HeroImage from "../../assets/dashboard3.webp";
 const Hero = () => {
   return (
     <>
-      <section className="mt-4 hero_section">
+      <section className="mt-4 hero_section mb-3">
         <h1 className="text-6xl flex justify-center text-center ">
           All Your Assets <br /> managed in one place.
         </h1>
@@ -29,7 +29,11 @@ const Hero = () => {
         </a>
       </section>
       <div className="rough flex justify-center items-center ">
-        <img src={HeroImage} alt="dashboard image" className="rounded-xl" />
+        <img
+          src={HeroImage}
+          alt="dashboard image"
+          className="rounded-xl mb-3"
+        />
       </div>
     </>
   );
