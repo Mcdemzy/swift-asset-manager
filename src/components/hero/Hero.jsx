@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <>
       <section className="bg-[#0D121F]">
-        <section className=" hero_section mb-3">
+        <section className=" hero_section mb-3 pt-[80px]">
           <h1 className="text-6xl flex justify-center text-center ">
             All Your Assets <br /> managed in one place.
           </h1>
