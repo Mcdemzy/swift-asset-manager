@@ -1,7 +1,7 @@
 import React from "react";
 import WhyUseImage1 from "../../assets/whyUseImage1.jpg";
 import WhyUseImage2 from "../../assets/whyUseImage2.png";
-import Image from "../../assets/image.jpeg";
+import WhyUseImage3 from "../../assets/whyUseImage3.png";
 
 const WhyUse = () => {
   return (
@@ -51,7 +51,7 @@ const WhyUse = () => {
           <div>
             <div className="bg-[#F3F5F7] w-[384px] h-[384px] rounded-xl pt-[50px]">
               <img
-                src={WhyUseImage1}
+                src={WhyUseImage2}
                 alt=""
                 className="w-[90%] rounded-xl h-full"
               />
@@ -73,7 +73,7 @@ const WhyUse = () => {
           <div>
             <div className="bg-[#F3F5F7] w-[384px] h-[384px] rounded-xl pt-[50px]">
               <img
-                src={WhyUseImage1}
+                src={WhyUseImage3}
                 alt=""
                 className="w-[90%] rounded-xl h-full"
               />
@@ -93,6 +93,29 @@ const WhyUse = () => {
       </section>
 
       {/* WHY USE SECTION 2 */}
+
+      <section className="min-h-[100vh] mt-[100px]">
+        <h3 className="text-[1.25rem] font-[600] leading-[30px] tracking-[-2%] text-[#7C5CFC] text-center">
+          WHY USE SAM
+        </h3>
+        <h4 className="text-[2.5rem] font-[700] leading-[60px] tracking-[-3%] text-[#040815] text-center">
+          Easy, Simple, Affordable
+        </h4>
+        <p className="max-w-[712px]  mt-5 m-auto text-[1.25rem] font-[400] leading-[30px] tracking-[-2%] text-[#596780] text-center">
+          Our platform helps your business in managing expenses. These are some
+          of the reasons why you should use our platform in managing business
+          finances.
+        </p>
+
+        {/* WRAPPER */}
+        <div className="">
+          <div className="max-w-[497px] bg-black h-[376px]">
+            <div></div>
+          </div>
+
+          <div className="max-w-[608px] h-[413px] bg-slate-500"></div>
+        </div>
+      </section>
     </>
   );
 };
