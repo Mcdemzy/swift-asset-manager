@@ -2,6 +2,9 @@ import React from "react";
 import WhyUseImage1 from "../../assets/whyUseImage1.jpg";
 import WhyUseImage2 from "../../assets/whyUseImage2.png";
 import WhyUseImage3 from "../../assets/whyUseImage3.png";
+import { IoWalletOutline } from "react-icons/io5";
+import { LuFileText } from "react-icons/lu";
+import { MdOutlineStorage } from "react-icons/md";
 
 const WhyUse = () => {
   return (
@@ -108,12 +111,53 @@ const WhyUse = () => {
         </p>
 
         {/* WRAPPER */}
-        <div className="">
-          <div className="max-w-[497px] bg-black h-[376px]">
-            <div></div>
+        <div className="pl-[10%] m-auto flex mt-[80px] gap-5 mb-[100px]">
+          <div className="max-w-[497px] min-h-[376px] mt-5 flex flex-col gap-[32px]">
+            <div className="flex gap-5">
+              <IoWalletOutline className="bg-[#7C5CFC] text-[2.5rem] p-[5px] rounded-xl" />
+              <div className="max-w-[415px]">
+                <h3 className="text-[1.5rem] font-[600] leading-[36px] tracking-[-3%] text-[#040815]">
+                  Automatic Invoice Payment
+                </h3>
+                <span className="text-[1rem] font-[400] leading-[24px] tracking-[-2%] text-[#596780] block mt-2">
+                  Automatic payments help you to arrange payments on a certain
+                  date without doing it manually again.
+                </span>
+              </div>
+            </div>
+            <div className="flex gap-5">
+              <LuFileText className="bg-[#7C5CFC] text-[2.5rem] p-[5px] rounded-xl" />
+              <div className="max-w-[415px]">
+                <h3 className="text-[1.5rem] font-[600] leading-[36px] tracking-[-3%] text-[#040815]">
+                  Clear payment history
+                </h3>
+                <span className="text-[1rem] font-[400] leading-[24px] tracking-[-2%] text-[#596780] block mt-2">
+                  Clear payment history helps you to track your business
+                  expenses on specific dates.
+                </span>
+              </div>
+            </div>
+            <div className="flex gap-5">
+              <MdOutlineStorage className="bg-[#7C5CFC] text-[2.5rem] p-[5px] rounded-xl" />
+              <div className="max-w-[415px]">
+                <h3 className="text-[1.5rem] font-[600] leading-[36px] tracking-[-3%] text-[#040815]">
+                  Use of multi-card payments
+                </h3>
+                <span className="text-[1rem] font-[400] leading-[24px] tracking-[-2%] text-[#596780] block mt-2">
+                  Have more than one debit or credit card? Don't worry, we
+                  support payments using more than one card.
+                </span>
+              </div>
+            </div>
           </div>
 
-          <div className="max-w-[608px] h-[413px] bg-slate-500"></div>
+          <div className="max-w-[608px] max-h-[413px] bg-[#F3F5F7] pt-[50px] pl-[50px] rounded-xl">
+            <img
+              src={WhyUseImage1}
+              alt=""
+              className="w-[100%] rounded-[10.66px]"
+            />
+          </div>
         </div>
       </section>
     </>
