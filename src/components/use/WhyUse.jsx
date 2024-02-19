@@ -1,7 +1,5 @@
 import React from "react";
 import WhyUseImage1 from "../../assets/whyUseImage1.jpg";
-import WhyUseImage2 from "../../assets/whyUseImage2.png";
-import WhyUseImage3 from "../../assets/whyUseImage3.png";
 import { IoWalletOutline } from "react-icons/io5";
 import { LuFileText } from "react-icons/lu";
 import { MdOutlineStorage } from "react-icons/md";
