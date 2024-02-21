@@ -1,5 +1,6 @@
 import React from "react";
-import WhyUseImage1 from "../../assets/whyUseImage1.jpg";
+import SuccessImage1 from "../../assets/successImage1.jpg";
+import SuccessImage2 from "../../assets/successImage2.jpg";
 import { FaCircleCheck } from "react-icons/fa6";
 import { MdCancel } from "react-icons/md";
 
@@ -56,7 +57,7 @@ const Success = () => {
 
           {/*  */}
           <div className="max-w-[486px] max-h-[434px] rounded-xl">
-            <img src={WhyUseImage1} alt="" />
+            <img src={SuccessImage1} alt="" />
           </div>
         </section>
       </section>
@@ -88,21 +89,21 @@ const Success = () => {
                 unproductive
               </h4>
               <div className="max-w-[490px] flex">
-                <FaCircleCheck className="text-[#FF4423] mt-[6px] mr-[5px] text-[1.2rem]" />
+                <MdCancel className="text-[#FF4423] mt-[6px] mr-[5px] text-[1.2rem]" />
                 <p className="text-[#0D121F] text-[1.13rem] font-[500] leading-[27px] tracking-[-2%]">
                   Complex recording process due to every administrative file in
                   a different place.
                 </p>
               </div>
               <div className="max-w-[490px] flex">
-                <FaCircleCheck className="text-[#FF4423] mt-[6px] mr-[5px] text-[1.5rem]" />
+                <MdCancel className="text-[#FF4423] mt-[6px] mr-[5px] text-[1.5rem]" />
                 <p className="text-[#0D121F] text-[1.13rem] font-[500] leading-[27px] tracking-[-2%]">
                   Need more effort to pay manually one by one invoice because
                   there is no payment accommodation.
                 </p>
               </div>
               <div className="max-w-[490px] flex">
-                <FaCircleCheck className="text-[#FF4423] mt-[6px] mr-[5px] text-[1.5rem]" />
+                <MdCancel className="text-[#FF4423] mt-[6px] mr-[5px] text-[1.5rem]" />
                 <p className="text-[#0D121F] text-[1.13rem] font-[500] leading-[27px] tracking-[-2%]">
                   Manual data arranging needs a long time because the different
                   months/years are not in the same place.
@@ -113,7 +114,7 @@ const Success = () => {
 
           {/*  */}
           <div className="max-w-[486px] max-h-[434px] rounded-xl">
-            <img src={WhyUseImage1} alt="" />
+            <img src={SuccessImage2} alt="" />
           </div>
         </section>
       </section>
