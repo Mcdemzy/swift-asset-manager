@@ -1,5 +1,6 @@
 import React from "react";
 import TestimonialImage1 from "../../assets/testimonialImage1.png";
+import TestimonialImage2 from "../../assets/testimonialImage2.png";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
 
@@ -60,16 +61,16 @@ const Testimonials = () => {
 
             <div className="mt-[40px] flex gap-6">
               <img
-                src={TestimonialImage1}
+                src={TestimonialImage2}
                 alt="Testimonial Image"
                 className="rounded-[12px] w-[70px] h-[70px]"
               />
               <div className="mt-5">
                 <h5 className="text-[#FFFFFF] text-[1.125rem] font-[700] leading-[27px] tracking-[-3%]">
-                  Jimmy Bartney
+                  Natasha Romanoff
                 </h5>
                 <p className="text-[#C3D4E9] text-[0.875rem] font-[400] leading-[21px] tracking-[-2%]">
-                  Product Manager at Picko Lab
+                  Black Widow
                 </p>
               </div>
             </div>
