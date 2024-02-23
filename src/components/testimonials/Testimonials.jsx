@@ -1,6 +1,7 @@
 import React from "react";
 import TestimonialImage1 from "../../assets/testimonialImage1.png";
 import { FaArrowLeftLong } from "react-icons/fa6";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const Testimonials = () => {
   return (
@@ -102,7 +103,14 @@ const Testimonials = () => {
           </div>
         </section>
         {/* ARROWS */}
-        <div></div>
+        <div className="flex m-auto items-center justify-center mt-16 gap-8">
+          <a href="#!">
+            <FaArrowLeftLong className="bg-[#1A202C] text-[#C3D4E9] p-3 text-[3rem] rounded-full" />
+          </a>
+          <a href="#!">
+            <FaArrowRightLong className="bg-[#7C5CFC] text-[#FFFFFF] p-3 text-[3rem] rounded-full" />
+          </a>
+        </div>
       </section>
     </>
   );
