@@ -1,4 +1,5 @@
 import React from "react";
+import TestimonialImage1 from "../../assets/testimonialImage1.png";
 
 const Testimonials = () => {
   return (
@@ -16,7 +17,7 @@ const Testimonials = () => {
         </p>
         {/* MAIN TESTIMONIAL */}
 
-        <div>
+        <section className="flex gap-5 flex-wrap w-[80%] m-auto">
           <div className="bg-[#1A202C] w-[384px] h-[363px] rounded-xl p-[20px] ">
             <h4 className="text-[#FFFFFF] text-[1.125rem] font-[600] leading-[27px] tracking-[-2]">
               It’s just incredible!
@@ -28,11 +29,77 @@ const Testimonials = () => {
             </p>
             {/* User Section */}
 
-            <div>
-              <img src="" alt="" />
+            <div className="mt-[40px] flex gap-6">
+              <img
+                src={TestimonialImage1}
+                alt="Testimonial Image"
+                className="rounded-[12px] w-[70px] h-[70px]"
+              />
+              <div className="mt-5">
+                <h5 className="text-[#FFFFFF] text-[1.125rem] font-[700] leading-[27px] tracking-[-3%]">
+                  Jimmy Bartney
+                </h5>
+                <p className="text-[#C3D4E9] text-[0.875rem] font-[400] leading-[21px] tracking-[-2%]">
+                  Product Manager at Picko Lab
+                </p>
+              </div>
             </div>
           </div>
-        </div>
+          <div className="bg-[#1A202C] w-[384px] h-[363px] rounded-xl p-[20px] ">
+            <h4 className="text-[#FFFFFF] text-[1.125rem] font-[600] leading-[27px] tracking-[-2]">
+              It’s just incredible!
+            </h4>
+            <p className="text-[#F3F5F7] text-[1rem] font-[500] leading-[24px] tracking-[-2%] mt-5 border-b-2 pb-10 border-[#90A3BF]">
+              It’s just 1 month since I’m using SAM to manage my business
+              assets, but the result is very satisfying! My business finance is
+              now more neat than before, thanks to SAM!
+            </p>
+            {/* User Section */}
+
+            <div className="mt-[40px] flex gap-6">
+              <img
+                src={TestimonialImage1}
+                alt="Testimonial Image"
+                className="rounded-[12px] w-[70px] h-[70px]"
+              />
+              <div className="mt-5">
+                <h5 className="text-[#FFFFFF] text-[1.125rem] font-[700] leading-[27px] tracking-[-3%]">
+                  Jimmy Bartney
+                </h5>
+                <p className="text-[#C3D4E9] text-[0.875rem] font-[400] leading-[21px] tracking-[-2%]">
+                  Product Manager at Picko Lab
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#1A202C] w-[384px] h-[363px] rounded-xl p-[20px] ">
+            <h4 className="text-[#FFFFFF] text-[1.125rem] font-[600] leading-[27px] tracking-[-2]">
+              It’s just incredible!
+            </h4>
+            <p className="text-[#F3F5F7] text-[1rem] font-[500] leading-[24px] tracking-[-2%] mt-5 border-b-2 pb-10 border-[#90A3BF]">
+              It’s just 1 month since I’m using SAM to manage my business
+              assets, but the result is very satisfying! My business finance is
+              now more neat than before, thanks to SAM!
+            </p>
+            {/* User Section */}
+
+            <div className="mt-[40px] flex gap-6">
+              <img
+                src={TestimonialImage1}
+                alt="Testimonial Image"
+                className="rounded-[12px] w-[70px] h-[70px]"
+              />
+              <div className="mt-5">
+                <h5 className="text-[#FFFFFF] text-[1.125rem] font-[700] leading-[27px] tracking-[-3%]">
+                  Jimmy Bartney
+                </h5>
+                <p className="text-[#C3D4E9] text-[0.875rem] font-[400] leading-[21px] tracking-[-2%]">
+                  Product Manager at Picko Lab
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
       </section>
     </>
   );
