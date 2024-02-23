@@ -1,5 +1,6 @@
 import React from "react";
 import TestimonialImage1 from "../../assets/testimonialImage1.png";
+import { FaArrowLeftLong } from "react-icons/fa6";
 
 const Testimonials = () => {
   return (
@@ -17,7 +18,7 @@ const Testimonials = () => {
         </p>
         {/* MAIN TESTIMONIAL */}
 
-        <section className="flex gap-5 flex-wrap w-[80%] m-auto">
+        <section className="flex gap-5  w-[80%] m-auto mt-[80px]">
           <div className="bg-[#1A202C] w-[384px] h-[363px] rounded-xl p-[20px] ">
             <h4 className="text-[#FFFFFF] text-[1.125rem] font-[600] leading-[27px] tracking-[-2]">
               It’s just incredible!
@@ -100,6 +101,8 @@ const Testimonials = () => {
             </div>
           </div>
         </section>
+        {/* ARROWS */}
+        <div></div>
       </section>
     </>
   );
