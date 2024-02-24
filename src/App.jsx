@@ -5,6 +5,7 @@ import WhyUse from "./components/use/WhyUse";
 import Works from "./components/works/Works";
 import Success from "./components/success/Success";
 import Testimonials from "./components/testimonials/Testimonials";
+import Pricing from "./components/pricing/Pricing";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Works />
       <Success />
       <Testimonials />
+      <Pricing />
     </>
   );
 };
