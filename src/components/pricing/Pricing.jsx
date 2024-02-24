@@ -1,6 +1,9 @@
 import React from "react";
 import { FaToggleOn } from "react-icons/fa6";
 import { FaToggleOff } from "react-icons/fa6";
+import { RiHeartsFill } from "react-icons/ri";
+import { FaCircleCheck } from "react-icons/fa6";
+import { MdCancel } from "react-icons/md";
 
 const Pricing = () => {
   return (
@@ -31,7 +34,32 @@ const Pricing = () => {
 
         {/* MAIN PRICING SECTION */}
 
-        <section></section>
+        <section>
+          <div className="bg-[#F3F5F7]">
+            <div className="flex items-center gap-2">
+              <RiHeartsFill className="text-[#7C5CFC] text-[2rem]" />
+              <h4 className="text-[#0D121F] text-[2rem] font-[600] leading-[48px] tracking-[-3%]">
+                Free
+              </h4>
+            </div>
+            <p className="text-[#596780] text-[1rem] font-[400] leading-[24px] tracking-[-2%]">
+              Perfect plan to get started
+            </p>
+            <p className="text-[#0D121F] text-[2.5rem] font-[600] leading-[60px] tracking-[-3%] flex items-center gap-2">
+              $0
+              <span className="text-[1rem] text-[#596780] font-[500] leading-[27px] tracking-[-2%]">
+                /month
+              </span>
+            </p>
+            <p className="text-[#1A202C] max-w-[320px] text-[1rem] font-[400] leading-[24px] tracking-[-2%]">
+              A free plan grants you access to some cool features of SAM.
+            </p>
+
+            {/* CONTAINER DETAILS */}
+
+            <div></div>
+          </div>
+        </section>
       </section>
     </>
   );
