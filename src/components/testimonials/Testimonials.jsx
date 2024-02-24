@@ -26,7 +26,7 @@ const Testimonials = () => {
             <h4 className="text-[#FFFFFF] text-[1.125rem] font-[600] leading-[27px] tracking-[-2]">
               It’s just incredible!
             </h4>
-            <p className="text-[#F3F5F7] text-[1rem] font-[500] leading-[24px] tracking-[-2%] mt-5 border-b-2 pb-10 border-[#90A3BF]">
+            <p className="text-[#F3F5F7] text-[1rem] font-[500] leading-[24px] tracking-[-2%] mt-5 border-b-2 pb-10 border-[#90A3BF] lg:h-[170px]">
               It’s just 1 month since I’m using SAM to manage my business
               assets, but the result is very satisfying! My business finance is
               now more neat than before, thanks to SAM!
@@ -53,7 +53,7 @@ const Testimonials = () => {
             <h4 className="text-[#FFFFFF] text-[1.125rem] font-[600] leading-[27px] tracking-[-2]">
               Satisfied User Here!
             </h4>
-            <p className="text-[#F3F5F7] text-[1rem] font-[500] leading-[24px] tracking-[-2%] mt-5 border-b-2 pb-10 border-[#90A3BF]">
+            <p className="text-[#F3F5F7] text-[1rem] font-[500] leading-[24px] tracking-[-2%] mt-5 border-b-2 pb-10 border-[#90A3BF] lg:h-[170px]">
               Never thought that with Spend.In managing my business expenses is
               so easy! Been using this platform for 3 months and still counting!
             </p>
@@ -79,7 +79,7 @@ const Testimonials = () => {
             <h4 className="text-[#FFFFFF] text-[1.125rem] font-[600] leading-[27px] tracking-[-2]">
               No doubt, SAM is the best!
             </h4>
-            <p className="text-[#F3F5F7] text-[1rem] font-[500] leading-[24px] tracking-[-2%] mt-5 border-b-2 pb-10 border-[#90A3BF]">
+            <p className="text-[#F3F5F7] text-[1rem] font-[500] leading-[24px] tracking-[-2%] mt-5 border-b-2 pb-10 border-[#90A3BF] lg:h-[170px]">
               “The best”! That’s what I want to say to this platform, didn’t
               know that there’s a platform to help you manage your business
               expenses like this! Very recommended to you who have a big
