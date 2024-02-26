@@ -83,7 +83,9 @@ const Pricing = () => {
                 <span className="text-[#0D121F]">100+ integrations</span>
               </p>
             </div>
-            <button>Start Your Free Plan</button>
+            <button className="w-[320px] h-[52px] bg-[#7C5CFC] flex justify-center items-center rounded-[30px] mt-4 text-[1rem] text-[#FFFFFF] font-[600] leading-[24px] tracking-[-2%]">
+              Start Your Free Trial
+            </button>
           </div>
           {/*  */}
           <div className="bg-[#F3F5F7] max-w-[384px] p-[25px] rounded-xl">
