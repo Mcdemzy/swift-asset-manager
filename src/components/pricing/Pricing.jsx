@@ -162,27 +162,31 @@ const Pricing = () => {
             <div className="flex flex-col gap-4">
               <p className="flex items-center gap-4">
                 <FaCircleCheck className="text-[#9CD323] text-[1.5rem]" />
-                <span className="text-[#0D121F]">Everything in Free Plan</span>
+                <span className="text-[#0D121F]">Everything in Pro Plan</span>
               </p>
               <p className="flex items-center gap-4">
                 <FaCircleCheck className="text-[#9CD323] text-[1.5rem]" />
-                <span className="text-[#0D121F]">Unlimited workspace</span>
+                <span className="text-[#0D121F]">
+                  Daily performance reports
+                </span>
               </p>
               <p className="flex items-center gap-4">
                 <FaCircleCheck className="text-[#9CD323] text-[1.5rem]" />
-                <span className="text-[#0D121F]">Collaborative workspace</span>
+                <span className="text-[#0D121F]">Dedicated assistant</span>
               </p>
               <p className="flex items-center gap-4">
                 <FaCircleCheck className="text-[#9CD323] text-[1.5rem]" />
-                <span className="text-[#0D121F]">Sharing permission</span>
+                <span className="text-[#0D121F]">Artificial intelligence</span>
               </p>
               <p className="flex items-center gap-4">
                 <FaCircleCheck className="text-[#9CD323] text-[1.5rem]" />
-                <span className="text-[#0D121F]">Admin tools</span>
+                <span className="text-[#0D121F]">
+                  Marketing tools & automations
+                </span>
               </p>
               <p className="flex items-center gap-4">
                 <FaCircleCheck className="text-[#9CD323] text-[1.5rem]" />
-                <span className="text-[#0D121F]">100+ integrations</span>
+                <span className="text-[#0D121F]">Advanced security</span>
               </p>
             </div>
             <button>Start Your Free Plan</button>
