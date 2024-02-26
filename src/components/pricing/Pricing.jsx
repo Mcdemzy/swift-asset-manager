@@ -162,27 +162,27 @@ const Pricing = () => {
             <div className="flex flex-col gap-4">
               <p className="flex items-center gap-4">
                 <FaCircleCheck className="text-[#9CD323] text-[1.5rem]" />
-                <span className="text-[#0D121F]">Sync accross device</span>
+                <span className="text-[#0D121F]">Everything in Free Plan</span>
               </p>
               <p className="flex items-center gap-4">
                 <FaCircleCheck className="text-[#9CD323] text-[1.5rem]" />
-                <span className="text-[#0D121F]">Sync accross device</span>
+                <span className="text-[#0D121F]">Unlimited workspace</span>
               </p>
               <p className="flex items-center gap-4">
                 <FaCircleCheck className="text-[#9CD323] text-[1.5rem]" />
-                <span className="text-[#0D121F]">Sync accross device</span>
+                <span className="text-[#0D121F]">Collaborative workspace</span>
               </p>
               <p className="flex items-center gap-4">
-                <MdCancel className="text-[#596780] text-[1.5rem]" />
-                <span className="text-[#0D121F]">Sync accross device</span>
+                <FaCircleCheck className="text-[#9CD323] text-[1.5rem]" />
+                <span className="text-[#0D121F]">Sharing permission</span>
               </p>
               <p className="flex items-center gap-4">
-                <MdCancel className="text-[#596780] text-[1.5rem]" />
-                <span className="text-[#0D121F]">Sync accross device</span>
+                <FaCircleCheck className="text-[#9CD323] text-[1.5rem]" />
+                <span className="text-[#0D121F]">Admin tools</span>
               </p>
               <p className="flex items-center gap-4">
-                <MdCancel className="text-[#596780] text-[1.5rem]" />
-                <span className="text-[#0D121F]">Sync accross device</span>
+                <FaCircleCheck className="text-[#9CD323] text-[1.5rem]" />
+                <span className="text-[#0D121F]">100+ integrations</span>
               </p>
             </div>
             <button>Start Your Free Plan</button>
