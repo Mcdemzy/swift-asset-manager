@@ -193,7 +193,9 @@ const Pricing = () => {
                 <span className="text-[#0D121F]">Advanced security</span>
               </p>
             </div>
-            <button>Start Your Free Plan</button>
+            <button className="w-[320px] h-[52px] bg-[#7C5CFC] flex justify-center items-center rounded-[30px] mt-4 text-[1rem] text-[#FFFFFF] font-[600] leading-[24px] tracking-[-2%]">
+              Get Started
+            </button>
           </div>
         </section>
       </section>
