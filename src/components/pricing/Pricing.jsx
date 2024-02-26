@@ -108,9 +108,7 @@ const Pricing = () => {
               For professionals only! Start arranging your expenses with our
               best templates.
             </p>
-
             {/* CONTAINER DETAILS */}
-
             <div className="flex flex-col gap-4">
               <p className="flex items-center gap-4">
                 <FaCircleCheck className="text-[#9CD323] text-[1.5rem]" />
@@ -137,7 +135,9 @@ const Pricing = () => {
                 <span className="text-[#0D121F]">100+ integrations</span>
               </p>
             </div>
-            <button>Start Your Free Plan</button>
+            <button className="w-[320px] h-[52px] bg-[#7C5CFC] flex justify-center items-center rounded-[30px] mt-4 text-[1rem] text-[#FFFFFF] font-[600] leading-[24px] tracking-[-2%]">
+              Get Started
+            </button>
           </div>
           {/*  */}
           <div className="bg-[#F3F5F7] max-w-[384px] p-[25px] rounded-xl">
