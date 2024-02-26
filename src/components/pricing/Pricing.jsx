@@ -122,15 +122,15 @@ const Pricing = () => {
                 <span className="text-[#0D121F]">Sync accross device</span>
               </p>
               <p className="flex items-center gap-4">
-                <MdCancel className="text-[#596780] text-[1.5rem]" />
+                <FaCircleCheck className="text-[#9CD323] text-[1.5rem]" />
                 <span className="text-[#0D121F]">Sync accross device</span>
               </p>
               <p className="flex items-center gap-4">
-                <MdCancel className="text-[#596780] text-[1.5rem]" />
+                <FaCircleCheck className="text-[#9CD323] text-[1.5rem]" />
                 <span className="text-[#0D121F]">Sync accross device</span>
               </p>
               <p className="flex items-center gap-4">
-                <MdCancel className="text-[#596780] text-[1.5rem]" />
+                <FaCircleCheck className="text-[#9CD323] text-[1.5rem]" />
                 <span className="text-[#0D121F]">Sync accross device</span>
               </p>
             </div>
@@ -194,3 +194,5 @@ const Pricing = () => {
 };
 
 export default Pricing;
+
+// Editing Pricing Component list
