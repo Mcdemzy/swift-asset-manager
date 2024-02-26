@@ -8,7 +8,7 @@ import { MdCancel } from "react-icons/md";
 const Pricing = () => {
   return (
     <>
-      <section className="h-[100vh] mt-[100px]">
+      <section className=" mt-[100px] pb-[20px]">
         <section>
           <h3 className="text-[#0D121F] text-[2.5rem] font-[700] leading-[60px] tracking-[-3%] text-center">
             Ready to Get Started?
@@ -34,8 +34,8 @@ const Pricing = () => {
 
         {/* MAIN PRICING SECTION */}
 
-        <section>
-          <div className="bg-[#F3F5F7]">
+        <section className="flex gap-6 flex-wrap m-auto justify-center items-center mt-[40px]">
+          <div className="bg-[#F3F5F7] max-w-[384px] p-[25px] rounded-xl">
             <div className="flex items-center gap-2">
               <RiHeartsFill className="text-[#7C5CFC] text-[2rem]" />
               <h4 className="text-[#0D121F] text-[2rem] font-[600] leading-[48px] tracking-[-3%]">
@@ -45,19 +45,147 @@ const Pricing = () => {
             <p className="text-[#596780] text-[1rem] font-[400] leading-[24px] tracking-[-2%]">
               Perfect plan to get started
             </p>
-            <p className="text-[#0D121F] text-[2.5rem] font-[600] leading-[60px] tracking-[-3%] flex items-center gap-2">
+            <p className="text-[#0D121F] text-[2.5rem] font-[600] leading-[60px] tracking-[-3%] flex items-center gap-2 mt-6 mb-6">
               $0
               <span className="text-[1rem] text-[#596780] font-[500] leading-[27px] tracking-[-2%]">
                 /month
               </span>
             </p>
-            <p className="text-[#1A202C] max-w-[320px] text-[1rem] font-[400] leading-[24px] tracking-[-2%]">
+            <p className="text-[#1A202C] max-w-[320px] text-[1rem] font-[400] leading-[24px] tracking-[-2%] mb-8">
               A free plan grants you access to some cool features of SAM.
             </p>
 
             {/* CONTAINER DETAILS */}
 
-            <div></div>
+            <div className="flex flex-col gap-4">
+              <p className="flex items-center gap-4">
+                <FaCircleCheck className="text-[#9CD323] text-[1.5rem]" />
+                <span className="text-[#0D121F]">Sync accross device</span>
+              </p>
+              <p className="flex items-center gap-4">
+                <FaCircleCheck className="text-[#9CD323] text-[1.5rem]" />
+                <span className="text-[#0D121F]">5 workspace</span>
+              </p>
+              <p className="flex items-center gap-4">
+                <FaCircleCheck className="text-[#9CD323] text-[1.5rem]" />
+                <span className="text-[#0D121F]">Collaborate with 5 user</span>
+              </p>
+              <p className="flex items-center gap-4">
+                <MdCancel className="text-[#596780] text-[1.5rem]" />
+                <span className="text-[#0D121F]">Sharing permission</span>
+              </p>
+              <p className="flex items-center gap-4">
+                <MdCancel className="text-[#596780] text-[1.5rem]" />
+                <span className="text-[#0D121F]">Admin tools</span>
+              </p>
+              <p className="flex items-center gap-4">
+                <MdCancel className="text-[#596780] text-[1.5rem]" />
+                <span className="text-[#0D121F]">100+ integrations</span>
+              </p>
+            </div>
+            <button>Start Your Free Plan</button>
+          </div>
+          {/*  */}
+          <div className="bg-[#F3F5F7] max-w-[384px] p-[25px] rounded-xl">
+            <div className="flex items-center gap-2">
+              <RiHeartsFill className="text-[#7C5CFC] text-[2rem]" />
+              <h4 className="text-[#0D121F] text-[2rem] font-[600] leading-[48px] tracking-[-3%]">
+                Free
+              </h4>
+            </div>
+            <p className="text-[#596780] text-[1rem] font-[400] leading-[24px] tracking-[-2%]">
+              Perfect plan to get started
+            </p>
+            <p className="text-[#0D121F] text-[2.5rem] font-[600] leading-[60px] tracking-[-3%] flex items-center gap-2 mt-6 mb-6">
+              $0
+              <span className="text-[1rem] text-[#596780] font-[500] leading-[27px] tracking-[-2%]">
+                /month
+              </span>
+            </p>
+            <p className="text-[#1A202C] max-w-[320px] text-[1rem] font-[400] leading-[24px] tracking-[-2%] mb-8">
+              A free plan grants you access to some cool features of SAM.
+            </p>
+
+            {/* CONTAINER DETAILS */}
+
+            <div className="flex flex-col gap-4">
+              <p className="flex items-center gap-4">
+                <FaCircleCheck className="text-[#9CD323] text-[1.5rem]" />
+                <span className="text-[#0D121F]">Sync accross device</span>
+              </p>
+              <p className="flex items-center gap-4">
+                <FaCircleCheck className="text-[#9CD323] text-[1.5rem]" />
+                <span className="text-[#0D121F]">Sync accross device</span>
+              </p>
+              <p className="flex items-center gap-4">
+                <FaCircleCheck className="text-[#9CD323] text-[1.5rem]" />
+                <span className="text-[#0D121F]">Sync accross device</span>
+              </p>
+              <p className="flex items-center gap-4">
+                <MdCancel className="text-[#596780] text-[1.5rem]" />
+                <span className="text-[#0D121F]">Sync accross device</span>
+              </p>
+              <p className="flex items-center gap-4">
+                <MdCancel className="text-[#596780] text-[1.5rem]" />
+                <span className="text-[#0D121F]">Sync accross device</span>
+              </p>
+              <p className="flex items-center gap-4">
+                <MdCancel className="text-[#596780] text-[1.5rem]" />
+                <span className="text-[#0D121F]">Sync accross device</span>
+              </p>
+            </div>
+            <button>Start Your Free Plan</button>
+          </div>
+          {/*  */}
+          <div className="bg-[#F3F5F7] max-w-[384px] p-[25px] rounded-xl">
+            <div className="flex items-center gap-2">
+              <RiHeartsFill className="text-[#7C5CFC] text-[2rem]" />
+              <h4 className="text-[#0D121F] text-[2rem] font-[600] leading-[48px] tracking-[-3%]">
+                Free
+              </h4>
+            </div>
+            <p className="text-[#596780] text-[1rem] font-[400] leading-[24px] tracking-[-2%]">
+              Perfect plan to get started
+            </p>
+            <p className="text-[#0D121F] text-[2.5rem] font-[600] leading-[60px] tracking-[-3%] flex items-center gap-2 mt-6 mb-6">
+              $0
+              <span className="text-[1rem] text-[#596780] font-[500] leading-[27px] tracking-[-2%]">
+                /month
+              </span>
+            </p>
+            <p className="text-[#1A202C] max-w-[320px] text-[1rem] font-[400] leading-[24px] tracking-[-2%] mb-8">
+              A free plan grants you access to some cool features of SAM.
+            </p>
+
+            {/* CONTAINER DETAILS */}
+
+            <div className="flex flex-col gap-4">
+              <p className="flex items-center gap-4">
+                <FaCircleCheck className="text-[#9CD323] text-[1.5rem]" />
+                <span className="text-[#0D121F]">Sync accross device</span>
+              </p>
+              <p className="flex items-center gap-4">
+                <FaCircleCheck className="text-[#9CD323] text-[1.5rem]" />
+                <span className="text-[#0D121F]">Sync accross device</span>
+              </p>
+              <p className="flex items-center gap-4">
+                <FaCircleCheck className="text-[#9CD323] text-[1.5rem]" />
+                <span className="text-[#0D121F]">Sync accross device</span>
+              </p>
+              <p className="flex items-center gap-4">
+                <MdCancel className="text-[#596780] text-[1.5rem]" />
+                <span className="text-[#0D121F]">Sync accross device</span>
+              </p>
+              <p className="flex items-center gap-4">
+                <MdCancel className="text-[#596780] text-[1.5rem]" />
+                <span className="text-[#0D121F]">Sync accross device</span>
+              </p>
+              <p className="flex items-center gap-4">
+                <MdCancel className="text-[#596780] text-[1.5rem]" />
+                <span className="text-[#0D121F]">Sync accross device</span>
+              </p>
+            </div>
+            <button>Start Your Free Plan</button>
           </div>
         </section>
       </section>
