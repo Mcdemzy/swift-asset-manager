@@ -142,20 +142,21 @@ const Pricing = () => {
             <div className="flex items-center gap-2">
               <RiHeartsFill className="text-[#7C5CFC] text-[2rem]" />
               <h4 className="text-[#0D121F] text-[2rem] font-[600] leading-[48px] tracking-[-3%]">
-                Free
+                Ultimate
               </h4>
             </div>
             <p className="text-[#596780] text-[1rem] font-[400] leading-[24px] tracking-[-2%]">
-              Perfect plan to get started
+              Best suits for great company!
             </p>
             <p className="text-[#0D121F] text-[2.5rem] font-[600] leading-[60px] tracking-[-3%] flex items-center gap-2 mt-6 mb-6">
-              $0
+              $33
               <span className="text-[1rem] text-[#596780] font-[500] leading-[27px] tracking-[-2%]">
                 /month
               </span>
             </p>
             <p className="text-[#1A202C] max-w-[320px] text-[1rem] font-[400] leading-[24px] tracking-[-2%] mb-8">
-              A free plan grants you access to some cool features of SAM.
+              If you are a finance manager at a big company, this plan is a
+              perfect match.
             </p>
 
             {/* CONTAINER DETAILS */}
