@@ -37,22 +37,22 @@ const Footer = () => {
         {/*  */}
 
         <div>
-          <p>Product</p>
+          <p>Company</p>
           <ul>
             <li>
-              <a href="#!">Digital Invoice</a>
+              <a href="#!">About Us</a>
             </li>
             <li>
-              <a href="#!">Digital Invoice</a>
+              <a href="#!">Newsletters</a>
             </li>
             <li>
-              <a href="#!">Digital Invoice</a>
+              <a href="#!">Our Partners</a>
             </li>
             <li>
-              <a href="#!">Digital Invoice</a>
+              <a href="#!">Career</a>
             </li>
             <li>
-              <a href="#!">Digital Invoice</a>
+              <a href="#!">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -110,3 +110,4 @@ const Footer = () => {
 export default Footer;
 
 //   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+// Editing Footer Component
