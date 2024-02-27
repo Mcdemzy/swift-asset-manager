@@ -60,22 +60,22 @@ const Footer = () => {
         {/*  */}
 
         <div>
-          <p>Product</p>
+          <p>Resources</p>
           <ul>
             <li>
-              <a href="#!">Digital Invoice</a>
+              <a href="#!">Blog</a>
             </li>
             <li>
-              <a href="#!">Digital Invoice</a>
+              <a href="#!">Pricing</a>
             </li>
             <li>
-              <a href="#!">Digital Invoice</a>
+              <a href="#!">FAQ</a>
             </li>
             <li>
-              <a href="#!">Digital Invoice</a>
+              <a href="#!">Events</a>
             </li>
             <li>
-              <a href="#!">Digital Invoice</a>
+              <a href="#!">Ebook & Guide</a>
             </li>
           </ul>
         </div>
