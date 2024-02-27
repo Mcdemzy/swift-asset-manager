@@ -7,6 +7,7 @@ import Success from "./components/success/Success";
 import Testimonials from "./components/testimonials/Testimonials";
 import Pricing from "./components/pricing/Pricing";
 import Cta from "./components/cta/Cta";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Testimonials />
       <Pricing />
       <Cta />
+      <Footer />
     </>
   );
 };
