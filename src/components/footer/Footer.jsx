@@ -20,16 +20,16 @@ const Footer = () => {
               <a href="#!">Digital Invoice</a>
             </li>
             <li>
-              <a href="#!">Digital Invoice</a>
+              <a href="#!">Insights</a>
             </li>
             <li>
-              <a href="#!">Digital Invoice</a>
+              <a href="#!">Reimbursements</a>
             </li>
             <li>
-              <a href="#!">Digital Invoice</a>
+              <a href="#!">Virtual Assistant</a>
             </li>
             <li>
-              <a href="#!">Digital Invoice</a>
+              <a href="#!">Artificial Intelligence</a>
             </li>
           </ul>
         </div>
