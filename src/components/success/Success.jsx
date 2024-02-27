@@ -24,28 +24,30 @@ const Success = () => {
 
         <section className="flex justify-between">
           <div>
-            <div className="w-[368px] h-[56px] bg-[#F3F5F7] rounded-[30px] flex mt-[50px]">
-              <div
-                className={`bg-[#7C5CFC] w-[195px] rounded-[30px] flex justify-center items-center text-[#FFFFFF] ${
-                  showWithSamDetails
-                    ? "bg-[#7C5CFC] clickable"
-                    : "bg-[#F3F5F7] clickable"
-                }`}
-                onClick={toggleDetails}
-              >
-                <a href="#!">With SAM</a>
+            <a href="#!">
+              <div className="w-[368px] h-[56px] bg-[#F3F5F7] rounded-[30px] flex mt-[50px]">
+                <div
+                  className={`bg-[#7C5CFC] w-[195px] rounded-[30px] flex justify-center items-center text-[#FFFFFF] ${
+                    showWithSamDetails
+                      ? "bg-[#7C5CFC] clickable"
+                      : "bg-[#F3F5F7] clickable"
+                  }`}
+                  onClick={toggleDetails}
+                >
+                  <a href="#!">With SAM</a>
+                </div>
+                <div
+                  className={`w-[169px] ml-[20px] rounded-[30px] flex justify-center items-center text-[#90A3BF] ${
+                    !showWithSamDetails
+                      ? "bg-[#7C5CFC] clickable"
+                      : "bg-[#F3F5F7] clickable"
+                  }`}
+                  onClick={toggleDetails}
+                >
+                  <a href="#!">Without SAM</a>
+                </div>
               </div>
-              <div
-                className={`w-[169px] ml-[20px] rounded-[30px] flex justify-center items-center text-[#90A3BF] ${
-                  !showWithSamDetails
-                    ? "bg-[#7C5CFC] clickable"
-                    : "bg-[#F3F5F7] clickable"
-                }`}
-                onClick={toggleDetails}
-              >
-                <a href="#!">Without SAM</a>
-              </div>
-            </div>
+            </a>
             {/*  */}
             <div className="max-w-[526px] h-[294px] mt-[60px] flex flex-col gap-7">
               {showWithSamDetails ? (
