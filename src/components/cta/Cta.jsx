@@ -1,9 +1,10 @@
 import React from "react";
+import CtaImage from "../../assets/whyUseImage1.jpg";
 
 const Cta = () => {
   return (
     <>
-      <section className="bg-[#0D121F] h-[100vh]">
+      <section className="bg-[#0D121F] flex gap-10 justify-between pb-6">
         <div className="p-[40px]">
           <h3 className="text-[#7C5CFC] text-[1.25rem] font-[600] leading-[30px] tracking-[-2%]">
             DOWNLOAD NOW!
@@ -22,8 +23,8 @@ const Cta = () => {
 
         {/*  */}
 
-        <div>
-          <img src="" alt="" />
+        <div className="bg-[#FFFFFF] p-6 mt-[100px] rounded-tl-2xl">
+          <img src={CtaImage} alt="" width={450} className="h-[fit-content]" />
         </div>
       </section>
     </>
