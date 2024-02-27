@@ -4,7 +4,7 @@ import CtaImage from "../../assets/whyUseImage1.jpg";
 const Cta = () => {
   return (
     <>
-      <section className="bg-[#0D121F] flex gap-10 justify-between pb-6">
+      <section className="bg-[#0D121F] flex gap-10 justify-between">
         <div className="p-[40px]">
           <h3 className="text-[#7C5CFC] text-[1.25rem] font-[600] leading-[30px] tracking-[-2%]">
             DOWNLOAD NOW!
