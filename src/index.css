@@ -74,20 +74,3 @@ body {
   width: 80%;
   height: 10%;
 }
-
-/* .footer__conatainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-
-@media screen and (max-width: 1100px) {
-  .footer__conatainer {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .footer__conatainer {
-    grid-template-columns: 1fr;
-  }
-} */
