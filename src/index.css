@@ -91,17 +91,3 @@ body {
     grid-template-columns: 1fr;
   }
 } */
-
-.footer__container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
-}
-
-@media screen and (max-width: 900px) {
-  .footer__container {
-    background: #7c5cfc;
-    display: grid;
-    grid-template-columns: 1fr 1fr !important;
-  }
-}
