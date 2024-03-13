@@ -75,6 +75,11 @@ body {
   height: 10%;
 }
 
+.footer__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 @media screen and (max-width: 508px) {
   .footer {
     padding: 20px;
@@ -86,7 +91,7 @@ body {
     row-gap: 40px;
   }
 }
-@media screen and (min-width: 508px) {
+@media screen and (max-width: 350px) {
   .footer {
     padding: 20px;
   }

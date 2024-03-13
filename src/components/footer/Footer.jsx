@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <section className="text-black footer">
+      <section className="footer min-h-[100vh]">
         <div className="max-w-[188px] mb-[40px]">
           {/* <img src="" alt="" /> */}
           <h2>S.A.M</h2>
