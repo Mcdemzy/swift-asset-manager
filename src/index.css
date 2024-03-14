@@ -102,3 +102,22 @@ body {
     row-gap: 40px;
   }
 }
+@media screen and (min-width: 508px) {
+  .footer {
+    padding: 20px;
+  }
+  .footer__header {
+  }
+  .test__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer__container {
+    /* background: red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    place-items: center;
+    row-gap: 40px;
+  }
+}
