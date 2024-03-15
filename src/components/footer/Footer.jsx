@@ -11,6 +11,7 @@ const Footer = () => {
         <section className="footer__container">
           <div className="w-[188px] mb-[40px] footer__header">
             {/* <img src="" alt="" /> */}
+            {/* Company Logo here */}
             <h2>S.A.M</h2>
             <p className="text-[#596780] text-[1.125rem] font-[400] leading-[27px] tracking-[-2%] ">
               Data visualization, and expense management for your business.
