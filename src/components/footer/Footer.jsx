@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <section
-        className="footer min-h-[100vh]
+        className="min-h-[100vh]
       "
       >
         {/* FOOTER CONTAINER */}
@@ -17,7 +17,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="flex justify-between">
+          <div className="flex justify-between footer">
             {/* Product */}
             <div>
               <h3 className="text-[#1A202C] text-[1.25rem] font-[600] leading-[30px] tracking-[-2%] mb-5">

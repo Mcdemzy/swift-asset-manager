@@ -89,11 +89,19 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  body {
-    background: green;
-  }
-  .footer__container {
-    display: block;
-    padding: 30px;
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    row-gap: 40px;
   }
 }
+
+/* @media screen and (max-width: 300px) {
+  .footer__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    row-gap: 40px;
+  }
+} */
