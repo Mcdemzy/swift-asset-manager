@@ -4,7 +4,7 @@ import CtaImage from "../../assets/whyUseImage1.jpg";
 const Cta = () => {
   return (
     <>
-      <section className="bg-[#0D121F] flex gap-10 justify-between cta__container">
+      <section className="bg-[#0D121F] pt-6 flex gap-10 justify-between cta__container">
         {/* CTA CONTENT */}
 
         <div className="p-[40px] cta__content">
