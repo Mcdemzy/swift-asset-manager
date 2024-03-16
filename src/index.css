@@ -97,11 +97,41 @@ body {
   }
 }
 
-/* @media screen and (max-width: 300px) {
-  .footer__container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
-    row-gap: 40px;
+@media screen and (max-width: 600px) {
+  .cta__container {
+    flex-direction: column;
+    gap: 0px;
   }
-} */
+
+  .cta__content {
+    padding-left: 50px;
+  }
+
+  .cta__content h3 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 15.12px;
+  }
+
+  .cta__content h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -3%;
+    max-width: 273px;
+  }
+
+  .cta__content p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 14px;
+    max-width: 319px;
+  }
+
+  /* I need to work on the cta button */
+
+  .cta__image {
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+}
