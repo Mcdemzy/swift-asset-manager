@@ -81,27 +81,30 @@ body {
   padding: 50px;
 }
 
-@media screen and (max-width: 1028px) {
-  .footer__container {
-    display: block;
-    padding: 30px;
+/* Responsive View For Pricing Component */
+
+@media screen and (max-width: 400px) {
+  .pricing__details {
+    max-width: 319px;
+  }
+
+  .pricing__details button {
+    max-width: 271px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .pricing__details {
+    max-width: 270px;
+  }
+
+  .pricing__details button {
+    max-width: 220px;
   }
 }
 
-@media screen and (max-width: 600px) {
-  .footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    row-gap: 40px;
-  }
-}
+/* Responsive View For CTA Component */
 
 @media screen and (max-width: 935px) {
-  .cta__container {
-    /* background: green; */
-  }
-
   .cta__content h3 {
     font-size: 0.75rem;
     font-weight: 600;
@@ -159,5 +162,23 @@ body {
   .cta__image {
     margin-top: 20px;
     margin-left: 50px;
+  }
+}
+
+/* Responsive View For Footer Component */
+
+@media screen and (max-width: 1028px) {
+  .footer__container {
+    display: block;
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    row-gap: 40px;
   }
 }

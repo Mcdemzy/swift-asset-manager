@@ -35,7 +35,7 @@ const Pricing = () => {
         {/* MAIN PRICING SECTION */}
 
         <section className="flex gap-6 flex-wrap m-auto justify-center items-center mt-[40px]">
-          <div className="bg-[#F3F5F7] max-w-[384px] p-[25px] rounded-xl">
+          <div className="bg-[#F3F5F7] max-w-[384px] p-[25px] rounded-xl pricing__details">
             <div className="flex items-center gap-2">
               <RiHeartsFill className="text-[#7C5CFC] text-[2rem]" />
               <h4 className="text-[#0D121F] text-[2rem] font-[600] leading-[48px] tracking-[-3%]">
@@ -88,7 +88,7 @@ const Pricing = () => {
             </button>
           </div>
           {/*  */}
-          <div className="bg-[#F3F5F7] max-w-[384px] p-[25px] rounded-xl">
+          <div className="bg-[#F3F5F7] max-w-[384px] p-[25px] rounded-xl pricing__details">
             <div className="flex items-center gap-2">
               <RiHeartsFill className="text-[#7C5CFC] text-[2rem]" />
               <h4 className="text-[#0D121F] text-[2rem] font-[600] leading-[48px] tracking-[-3%]">
@@ -140,7 +140,7 @@ const Pricing = () => {
             </button>
           </div>
           {/*  */}
-          <div className="bg-[#F3F5F7] max-w-[384px] p-[25px] rounded-xl">
+          <div className="bg-[#F3F5F7] max-w-[384px] p-[25px] rounded-xl pricing__details">
             <div className="flex items-center gap-2">
               <RiHeartsFill className="text-[#7C5CFC] text-[2rem]" />
               <h4 className="text-[#0D121F] text-[2rem] font-[600] leading-[48px] tracking-[-3%]">
