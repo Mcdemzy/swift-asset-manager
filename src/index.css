@@ -97,7 +97,34 @@ body {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 935px) {
+  .cta__container {
+    /* background: green; */
+  }
+
+  .cta__content h3 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 15.12px;
+  }
+
+  .cta__content h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 36px;
+    /* letter-spacing: -3%; */
+    max-width: 300px;
+  }
+
+  .cta__content p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 14px;
+    max-width: 319px;
+  }
+}
+
+@media screen and (max-width: 650px) {
   .cta__container {
     flex-direction: column;
     gap: 0px;
@@ -122,10 +149,9 @@ body {
   }
 
   .cta__content p {
-    font-size: 0.875rem;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 14px;
-    max-width: 319px;
+    line-height: 18px;
   }
 
   /* I need to work on the cta button */
