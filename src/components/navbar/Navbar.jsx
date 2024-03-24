@@ -1,9 +1,48 @@
 import React from "react";
+import { FaChevronDown } from "react-icons/fa";
 
 const Navbar = () => {
   return (
     <>
-      <section className="bg-[#0D121F] h-20">Navbar</section>
+      <section className="bg-[#0D121F] h-20 flex justify-around items-center">
+        {/* Logo Container */}
+        <div className="w-[144px] bg-red-300 h-[32px]"></div>
+
+        {/* Nav Items */}
+        <div>
+          <ul className="flex gap-10">
+            <li>
+              <a href="#!" className="flex">
+                Products <FaChevronDown className="mt-[7px] ml-[3px]" />
+              </a>
+            </li>
+            <li>
+              <a href="#!">Benefit</a>
+            </li>
+            <li>
+              <a href="#!">How it Works</a>
+            </li>
+            <li>
+              <a href="#!">Pricing</a>
+            </li>
+            <li>
+              <a href="#!" className="flex">
+                Company <FaChevronDown className="mt-[7px] ml-[3px]" />
+              </a>
+            </li>
+          </ul>
+        </div>
+        {/*  */}
+        <div className="flex justify-center items-center gap-8">
+          <a href="#!">Login</a>
+          <a
+            href="#!"
+            className="w-[125px] bg-[#7C5CFC] rounded-[30px] h-[52px] flex justify-center items-center"
+          >
+            Get Demo
+          </a>
+        </div>
+      </section>
     </>
   );
 };
