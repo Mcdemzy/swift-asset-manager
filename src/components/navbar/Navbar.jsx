@@ -1,10 +1,9 @@
-import React, { useState } from "react";
-import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import React from "react";
 
 const Navbar = () => {
   return (
     <>
-      <section className="h-20 w-full navbar">Navbar</section>
+      <section className="bg-[#0D121F] h-20">Navbar</section>
     </>
   );
 };
