@@ -1,10 +1,11 @@
 import React from "react";
 import { FaChevronDown } from "react-icons/fa";
+import { HiMiniBars2 } from "react-icons/hi2";
 
 const Navbar = () => {
   return (
     <>
-      <section className="bg-[#0D121F] h-20 flex justify-around items-center">
+      <section className="bg-[#0D121F] h-20 flex justify-around items-center navbar">
         {/* Logo Container */}
         <div className="w-[144px] bg-red-300 h-[32px]"></div>
 
@@ -33,7 +34,7 @@ const Navbar = () => {
           </ul>
         </div>
         {/*  */}
-        <div className="flex justify-center items-center gap-8">
+        <div className="flex  items-center gap-8">
           <a href="#!">Login</a>
           <a
             href="#!"
