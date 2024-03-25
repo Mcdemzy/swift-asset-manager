@@ -40,13 +40,6 @@ body {
   line-height: 1.7;
 }
 
-.navbar {
-  background: var(--color-bg-variant);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .hero_demo {
   background: var(--color-purple);
   border-radius: 30px;
@@ -99,6 +92,35 @@ body {
 
   .pricing__details button {
     max-width: 220px;
+  }
+}
+/* Responsive View For Navbar Component */
+@media screen and (max-width: 935px) {
+  .navbar {
+    /* background: red; */
+    justify-content: space-around;
+  }
+  .navbar ul {
+    display: none;
+  }
+  .nav__icon {
+    display: block;
+  }
+  .nav__mobile-details {
+    gap: 10px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .navbar {
+    justify-content: space-around;
+  }
+  .navbar__mobile-details {
+    display: none;
+  }
+  .nav__icon {
+    font-size: 1.5rem;
   }
 }
 

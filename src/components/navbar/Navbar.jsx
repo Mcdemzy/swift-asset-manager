@@ -1,6 +1,7 @@
 import React from "react";
 import { FaChevronDown } from "react-icons/fa";
 import { HiMiniBars2 } from "react-icons/hi2";
+import { FaXmark } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
@@ -8,7 +9,6 @@ const Navbar = () => {
       <section className="bg-[#0D121F] h-20 flex justify-around items-center navbar">
         {/* Logo Container */}
         <div className="w-[144px] bg-red-300 h-[32px]"></div>
-
         {/* Nav Items */}
         <div>
           <ul className="flex gap-10">
@@ -34,7 +34,7 @@ const Navbar = () => {
           </ul>
         </div>
         {/*  */}
-        <div className="flex  items-center gap-8">
+        <div className="flex items-center gap-8 navbar__mobile-details">
           <a href="#!">Login</a>
           <a
             href="#!"
@@ -43,6 +43,7 @@ const Navbar = () => {
             Get Demo
           </a>
         </div>
+        <HiMiniBars2 className="hidden nav__icon" />
       </section>
     </>
   );
