@@ -97,7 +97,6 @@ body {
 /* Responsive View For Navbar Component */
 @media screen and (max-width: 935px) {
   .navbar {
-    /* background: red; */
     justify-content: space-around;
   }
   .navbar ul {
